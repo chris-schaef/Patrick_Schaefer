@@ -1,3 +1,26 @@
+body {
+    background-color: rgba(0, 0, 0, 0.945);
+}
+header {
+    border-color: teal;
+    border-width: thick;
+    border-style: double;
+    text-align: center;
+}
+
 h1 {
-    color: red
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    
+}
+
+h2 {
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
