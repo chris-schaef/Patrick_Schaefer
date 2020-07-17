@@ -1,7 +1,6 @@
 body {
     background-color: rgba(0, 0, 0, 0.945);
 }
-*consistent on all pages
 header {
     border-color: teal;
     border-width: thick;
@@ -32,7 +31,13 @@ button:hover {
     border-color: purple;
     color:black;
 }
-
+figcaption {
+    color: white;
+    position: relative;
+    left: 850px;
+    bottom: 350px;
+    width: 100px;
+}
 
 h1 {
     color: white;
@@ -73,7 +78,7 @@ p {
     margin-top: 0px;
     position: relative;
     left: 0px;
-    top: 80px;
+    top: 50px;
     
 }
 * {box-sizing:border-box}
@@ -99,11 +104,12 @@ p {
 }
 .pride {
     position: relative;
-    left: 960px;
-    bottom: 525px;
-    width: 180px;
+    left: 240px;
+    bottom: 80px;
+    width: 50px;
     height: fit-content;
 }
+
 
 .cbus {
     position: relative;
@@ -120,17 +126,17 @@ p {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 2000px;
   position: relative;
   
 }
 
-
+/* Hide the images by default */
 .mySlides {
   display: none;
   border: white solid;
   position: relative;
-  left: 150px;
+  left: 0px;
 }
 
 /* Next & previous buttons */
