@@ -1,6 +1,7 @@
 body {
     background-color: rgba(0, 0, 0, 0.945);
 }
+*consistent on all pages
 header {
     border-color: teal;
     border-width: thick;
@@ -10,6 +11,7 @@ header {
 div {
     float: left;
 }
+
 button {
     float: left;
     margin-top: 10px;
@@ -30,13 +32,7 @@ button:hover {
     border-color: purple;
     color:black;
 }
-figcaption {
-    color: white;
-    position: relative;
-    left: 850px;
-    bottom: 350px;
-    width: 100px;
-}
+
 
 h1 {
     color: white;
@@ -78,7 +74,7 @@ p {
     position: relative;
     left: 0px;
     top: 80px;
-    right: ;
+    
 }
 * {box-sizing:border-box}
 
@@ -101,8 +97,14 @@ p {
     border-color: white;
     border-style: double;
 }
-
+.pride {
+    position: relative;
+    left: 960px;
+    bottom: 525px;
+    width: 180px;
+    height: fit-content;
 }
+
 .cbus {
     position: relative;
     bottom: 300px;
@@ -120,10 +122,10 @@ p {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: ;
+  
 }
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
   border: white solid;
@@ -140,7 +142,6 @@ p {
   width: fit-content;
   margin-top: -22px;
   padding: 16px;
-  color:;
   font-weight: bold;
   font-size: 40px;
   transition: 0.6s ease;
@@ -148,7 +149,7 @@ p {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .prev {
 position: relative;
   right: 457px;
@@ -163,7 +164,7 @@ position: relative;
     color: black;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a white background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: purple;
   color: white;
