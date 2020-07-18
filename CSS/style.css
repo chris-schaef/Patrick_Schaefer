@@ -25,6 +25,13 @@ button {
     height: 50px;
     
 }
+button > img {
+    position: relative;
+    right: 3px;
+    
+    width: 140px;
+    height: 43px;
+}
 button:hover {
     background-color: white;
     border-style: solid;
@@ -91,21 +98,15 @@ p {
     width: 610px;
     line-height: 2;
 }
-.soundcloud {
-    position: relative;
-    width: 160px;
-    height: 50px;
-    right: px;
-    bottom: 25px;
-}
+
 .soundcloud:hover {
     border-color: white;
     border-style: double;
 }
 .pride {
-    position: relative;
-    left: 240px;
-    bottom: 80px;
+    position: fixed;
+    left: 960px;
+    bottom: 4px;
     width: 50px;
     height: fit-content;
 }
@@ -158,21 +159,21 @@ p {
 
 .prev {
 position: relative;
-  right: 457px;
+  right: 600px;
   top: 200px;
   border-radius: 3px 0 0 3px;
   color: black;
 }
 .next {
     position: relative;
-    left: 42px;
+    left: -115px;
     top:200px;
     color: black;
 }
 
 /* On hover, add a white background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: purple;
+  background-color: black;
   color: white;
 }
 
