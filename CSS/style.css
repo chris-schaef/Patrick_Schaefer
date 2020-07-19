@@ -113,20 +113,6 @@ p {
     height: fit-content;
 }
 
-
-.cbus {
-    position: relative;
-    bottom: 300px;
-    width: 150px;
-    border-style: solid;
-    border-color: teal;
-}
-.otterbein {
-    position: relative;
-    right: 155px;
-    width: 200px;
-}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 2000px;
@@ -208,6 +194,11 @@ input {
 }
 .role {
     color:  white;
+    text-indent: 50px;
+}
+.col-sm{
+    color: white;
+    width: 300px;
 }
 
 
