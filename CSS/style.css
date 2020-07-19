@@ -82,6 +82,7 @@ p {
     color: gold;
     flex-wrap: wrap;
     text-align: center;
+    text-decoration: underline;
     font-size: 2em;
     margin-top: 0px;
     position: relative;
@@ -244,7 +245,7 @@ h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
     text-align: justify;
-    padding: 2px 2px 2px 2px;
+    padding: 2px 2px 2px px;
     margin: 10px 10px 10px 10px;
     position: relative;
     left: 350px;
@@ -252,6 +253,13 @@ h4 {
 ul{
     position: relative;
     left: 375px;
+}
+.headshot {
+    position: relative;
+    left: 600px;
+    top: -400px;
+    border: solid white;
+    margin-bottom: 0px;
 }
 .Tell {
     width: 500px;
