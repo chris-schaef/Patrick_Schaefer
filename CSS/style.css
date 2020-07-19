@@ -199,7 +199,40 @@ input {
 .col-sm{
     color: white;
     width: 300px;
+    border: solid white;
 }
+.lead1 {
+    text-indent: 90px;
+    text-align: center;
+    font-size: x-large;
+}
+.lead2 {
+    text-indent: 90px;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
+.lead3 {
+    text-indent: 60px;
+    text-align: center;
+    font-size: x-large;
+    font-style: bold;
+}
+article {
+    position: relative;
+    top: 350px;
+    right: 800px;
+    color: white;
+}
+h4 {
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr {
+    border-top: 5px solid white;
+    width: 10%; text-align: left;
+}
+
 
 
 
