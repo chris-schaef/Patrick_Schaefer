@@ -22,9 +22,7 @@ button {
     font-size: 30px;
     border-color: gold;
     width: 150px;
-    height: 50px;
-    
-    
+    height: 50px;     
 }
 button > img {
     position: relative;
@@ -119,7 +117,8 @@ fieldset{
 /* Slideshow container */
 .slideshow-container {
   max-width: 2000px;
-  position: relative;
+  position: static;
+  left: 100px;
   
 }
 
@@ -198,18 +197,11 @@ input {
     width: 50%;
     padding: 10px 10px 10px 10 px;
     border: teal solid;
-    f
 }
-/* Number text (1/3 etc) */
-.numbertext {
-  color: black;
-  font-size: 12px;
-  padding: 15px 12px;
-  position: absolute;
-  top: 100;
-}
+
+
 .role {
-    color:  white;
+    color: white;
     text-indent: 50px;
 }
 .col-sm{
